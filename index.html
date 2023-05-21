@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="#">
+          <img src="img/logo.png" alt="Logo">
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hello, I'm Susan Nepal</h1>
+          <p>A Learner</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Greetings! I'm Susan Nepal, an enthusiastic student driven by a profound passion for web development
+        and design. I possess a flair for crafting visually stunning and intuitive websites that captivate and
+        endure. Armed with a solid foundation in HTML, CSS, and JavaScript, I blend innovation with technical
+        finesse in every endeavor. Immerse yourself in my portfolio to witness my creations or reach out to
+        discuss your next visionary project. Together, let's embark on an awe-inspiring journey of creation!</p>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2>My Portfolio</h2>
+      <p>Prepare to be amazed as I present to you a curated collection of my standout projects.
+        Each masterpiece serves as a testament to my prowess in web development and design. 
+        From crafting responsive layouts to incorporating captivating interactive elements,
+        I pour my heart and soul into fashioning visually striking and fully functional websites
+        that surpass the expectations of clients. Simply click on the image to unveil its GitHub 
+        repository and delve into the intricacies of each creation.</p>
+      <div class="portfolio">
+        <a href="https://github.com/Sumit-nepal/tic-tac-toe">
+          <img src="img/tic tac toe.jpg" alt="Tic Tac Toe">
+        </a>
+        <p>Nought and crosses</p>
+      </div>
+      <div class="portfolio">
+        <a href="https://github.com/Sumit-nepal/ceaser-cipher">
+          <img src="img/ceasar cipher.png" alt="Data Encryption">
+        </a>
+        <p>ceasar cipher Encryption</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="heading" style="text-align: center;">My Skills</h2>
+        <div class="skills-column">
+            <h3 class="title"></h3>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <p>HTML</p>
+                    <div class="container">
+                      <div class="skills html"><b class="skill-bars"> 50% </b></div>
+                    </div>
+                    
+                    <p>CSS</p>
+                    <div class="container">
+                      <div class="skills css"><b class="skill-bars"> 55% </b></div>
+                    </div>
+                    
+                    <p>JavaScript</p>
+                    <div class="container">
+                      <div class="skills js"><b class="skill-bars"> 65% </b></div>
+                    </div>
+                    
+                    <p>Python</p>
+                    <div class="container">
+                      <div class="skills python"><b class="skill-bars"> 70% </b></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you have any inquiries about projects, questions, or simply want to say hello,
+          please don't hesitate to get in touch. I'm always thrilled to connect with like-minded 
+          individuals, clients, or potential collaborators. Let's engage in a conversation about
+          your ideas and work together to bring them to fruition!</p>
+        <div class="form-main">
+          <form action="https://formspree.io/f/xayzkrll" method="POST">
+            <div class="input-field">
+              <label>
+                <input type="email" name="email" placeholder="abc@gmail.com">
+              </label>
+            </div>
+            <div class="input-field">
+              <label>
+                <input type="text" name="name" placeholder="Enter your name">
+              </label>
+            </div>
+            <div class="input-field">
+              <label>
+                <div class="textarea-field">
+                  <textarea name="message" placeholder="Enter your message.."></textarea>
+                </div>
+              </label>
+            </div>
+            <button class="button" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+  </section>
+
+  <footer>
+    <div class="social-media">
+      <ul>
+        <li><a href="https://www.facebook.com/susan.nepal.33449"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://www.instagram.com/susan__nepal/"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://github.com/Susan-Nepal"><i class="fab fa-github"></i></a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skill</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    
+    <div class="copyright">
+      <p>&copy; 2023 Susan Nepal. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
